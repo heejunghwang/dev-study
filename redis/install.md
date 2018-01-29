@@ -99,3 +99,10 @@ $ /etc/init.d/redis_6379 start
 127.0.0.1:6379> auth userpassword
 OK
 ~~~
+
+* 또는 옵션 `-a 패스워드`를 입력한다
+~~~
+$ ./redis-cli -a userpassword
+127.0.0.1:6379> ping
+PONG
+~~
