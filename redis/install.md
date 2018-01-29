@@ -105,4 +105,4 @@ OK
 $ ./redis-cli -a userpassword
 127.0.0.1:6379> ping
 PONG
-~~
+~~~
