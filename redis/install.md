@@ -106,3 +106,16 @@ $ ./redis-cli -a userpassword
 127.0.0.1:6379> ping
 PONG
 ~~~
+
+# (참고) 외부 접속 허용
+* config 파일(설치 시 설정하였던)에서 bind 부분 주석 제거
+* redis 서비스 재시작
+~~~
+$ cd /etc/redis
+$ vi 6379.conf
+
+(conf 파일에서 아래부분 주석처리)
+# bind 127.0.0.1
+~~~
+
+
