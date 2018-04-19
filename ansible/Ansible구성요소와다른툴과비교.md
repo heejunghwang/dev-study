@@ -60,9 +60,7 @@ db2 ansible_host = db.2.host
     * lineinfile : 기존 파일을 행 단위로 수정
   * 명령어 실행 모듈
     * command
-    * ​
 
-  ​
 
 ## 4. 플레이북
 
